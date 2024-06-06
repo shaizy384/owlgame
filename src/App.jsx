@@ -103,7 +103,7 @@ function App() {
   ];
 
   return (
-    <div className="h-screen bg-white flex justify-center items-center" style={cursorStyle}>
+    <div className="h-[808px] bg-white flex justify-center items-center" style={cursorStyle}>
       <main className='mx-auto relative flex flex-col'>
         <Navbar />
         <div className='flex justify-center gap-8 mt-3'>
@@ -125,7 +125,7 @@ function App() {
             <img src={eye} alt="eye" className='w-[45px]' />
           </div>
         </div>
-        <div className="flex justify-between w-full px-20 mx-auto bottom-7 absolute">
+        <div className="flex justify-between w-full px-20 mx-auto bottom-7 absolut">
           <NavigateBtns text="Back" />
           <NavigateBtns text="Next" />
         </div>
