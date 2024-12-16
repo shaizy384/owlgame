@@ -131,6 +131,7 @@
     
       // Handle page unload or beforeunload events
       window.addEventListener('beforeunload', async function (event) {
+        event.preventDefault()
         const sessionEndTime = new Date();
         const formattedLeftTime = sessionEndTime.toLocaleString('en-US', {
           year: 'numeric',
